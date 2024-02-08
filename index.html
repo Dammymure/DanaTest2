@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="/style.css">
+ <link rel="stylesheet" href="/Font 6/css/all.css">
+
+ <title>DanaGroupTest</title>
+</head>
+<body>
+ <!-- NAVIGATION BAR -->
+     <!-- Navbar Section -->
+     <nav class="navbar">
+      <div class="navbar__container">
+       <a href="#home" id="navbar__logo">DANA GROUP</a>
+     
+       <div class="navbar__toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+       </div>
+     
+       <ul class="navbar__menu">
+        <li class="navbar__item">
+         <a href="#home" class="navbar__links" id="home-page">Home</a>
+        </li>
+        <li class="navbar__item">
+         <a href="#about" class="navbar__links" id="about-page">About</a>
+        </li>
+        <li class="navbar__item">
+         <a href="#services" class="navbar__links" id="services-page">Services</a>
+        </li>
+        <li class="navbar__btn">
+         <a href="#sign-up" class="button" id="signup-page">Contact us</a>
+        </li>
+       </ul>
+     
+      </div>
+     </nav>
+
+     <!-- FORM -->
+     <section >
+      <div class="container">
+       <form class="form" id="form">
+        <h2>Send Us a Message</h2>
+        <div class="form-control ">
+         <label for="username">Name</label>
+         <input type="text" id="username" placeholder="enter Username">
+         <small>Error Message</small>
+        </div>
+        <div class="form-control">
+         <label for="Email">Email</label>
+         <input type="text" id="Email" placeholder="enter Email">
+         <small>Error Message</small>
+        </div>
+        <div class="form-control">
+         <label for="message">Message</label>
+<textarea id="message" placeholder="Enter message" wrap="soft"></textarea>
+         <small>Error Message</small>
+        </div>
+        <!-- <div class="form-control">
+         <label for="password2">Comfirm Password</label>
+         <input type="password" id="password2" placeholder="enter password again">
+         <small>Error Message</small>
+        </div> -->
+        <button>Submit</button>
+       </form>
+      </div>
+     </section>
+
+     <script src="/app.js"></script>
+</body>
+</html>
